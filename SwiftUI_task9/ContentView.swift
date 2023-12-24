@@ -69,18 +69,7 @@ struct ContentView: View {
             .frame(width: 100, height: 100)
             .offset(offset)
     }
-    @ViewBuilder
-    func BallWithImage(offset: CGSize = .zero) -> some View {
-
-        Circle()
-            .frame(width: 100, height: 100)
-
-            .offset(offset)
-    }
 }
-
-
-
 
 #Preview {
     ContentView()
